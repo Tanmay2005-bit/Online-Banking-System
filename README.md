@@ -18,7 +18,7 @@ ConsoleBankingSystem
  -> -dao
    UserDAO.java # Data Access Object for reading/writing User data
 
- ->s ervice/
+ -> service/
    BankService.java # Business logic for banking operations
 
  -> io
