@@ -8,21 +8,21 @@ It uses file-based storage to persist user data and transactions.
 
 ## Project Structure
 
-ConsoleBankingSystem/
-│
-├── Main.java # Main class to run the application
-│
-├── model/
-│ └── User.java # User model class representing a bank user
-│
-├── dao/
-│ └── UserDAO.java # Data Access Object for reading/writing User data
-│
-├── service/
-│ └── BankService.java # Business logic for banking operations
-│
-└── io/
-└── FileManager.java # File handling utility class for persistence
+ConsoleBankingSystem
+
+-> Main.java # Main class to run the application
+
+ -> model
+  User.java # User model class representing a bank user
+
+ -> -dao
+   UserDAO.java # Data Access Object for reading/writing User data
+
+ ->s ervice/
+   BankService.java # Business logic for banking operations
+
+ -> io
+    FileManager.java # File handling utility class for persistence
 
 ## Requirements
 
