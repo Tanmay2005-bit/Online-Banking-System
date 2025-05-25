@@ -73,6 +73,52 @@ Exit the application
 
 -> Codes  .txt file is also seperately included in the repository for efficient and easy viewing of the files.
 
+# Project is performed step by step covering every part of rubrics for review 1:
+
+Creating the new project with JDK & IDE setup:
+Install JDK (Java Development Kit) (version 8+).
+Use NetBeans IDE.
+Create new project:
+Go to File → New Project → Java Application.
+Name: ConsoleBankingSystem.
+Uncheck “Create Main Class”.
+
+Define the project structure : Already Defined above 
+
+Design the database schema for the project:
+We'll store users and transactions in .txt files:
+users.txt:
+username,password,balance
+john,1234,5000.0
+transactions_username.txt:
+type,amount,date
+Deposit,1000,2024-05-24
+
+Create a Files to work on the Project ( to store, Retrive , update , delete ):
+Use java.io:
+FileReader, FileWriter, BufferedReader, PrintWriter
+Store all users in users.txt
+One file per user for transactions
+
+Implement IO connectivity using Io package. :
+This is done under FileManager.java
+
+Create Model, DAO classes for the IO CRUD operations:
+This is done under User.java and UserDAO.java
+
+Aesthetics and Visual Appeal of the UI (Console based , using scanner class ) :
+This is done under BankService.java
+
+Component Placement and Alignment in the UI:
+Menus are cleanly separated.
+Each screen shows only relevant info.
+Options are numbered clearly.
+Prompts guide the user.
+
+Responsiveness and Accessibility of the UI:
+Works well on any terminal.
+Clear text-based prompts.
+Gracefully handles errors like wrong input.
 
 
 # Explanation of Completed Tasks
