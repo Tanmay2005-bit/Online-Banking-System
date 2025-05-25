@@ -67,6 +67,11 @@ View Transaction History
 
 Exit the application
 
+# IMPORTANT POINT TO BE TAKEN REGARDING VIEWING OF THE PROJECT 
+
+-> Project is submitted as .zip file in the repository.
+
+-> Codes  .txt file is also seperately included in the repository for efficient and easy viewing of the files.
 
 
 
